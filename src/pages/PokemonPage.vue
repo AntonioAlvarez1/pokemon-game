@@ -1,6 +1,11 @@
 <script lang="ts">
    import PokemonOption from '@/components/PokemonOptions.vue';
    import PokemonPicture from '@/components/PokemonPicture.vue';
+   import getPokemonOption from '@/helpers/getPokemonOptions';
+   
+   console.log(getPokemonOption());
+
+
    export default{
     components:{PokemonOption,PokemonPicture}
    }
