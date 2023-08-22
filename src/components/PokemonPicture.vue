@@ -40,7 +40,7 @@
     .pokemon-container{
         height: 200px;
     }
-    .haidden-pokemon{
+    .hidden-pokemon{
         filter:brightness(0);
     }
     img{
